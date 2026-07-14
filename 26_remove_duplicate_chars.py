@@ -1,0 +1,7 @@
+# 26. Remove Duplicate Characters from a String
+s = "programming"
+result = ""
+for ch in s:
+    if ch not in result:
+        result += ch
+print(result)
